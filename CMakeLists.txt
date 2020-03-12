@@ -8,3 +8,6 @@ include_directories(${OpenCV_INCLUDE_DIRS})
 
 add_executable(cvBar cvBar.cpp)
 target_link_libraries(cvBar ${OpenCV_LIBS})
+
+add_executable(findContours FindContour.cpp)
+target_link_libraries(findContours ${OpenCV_LIBS})
