@@ -11,3 +11,6 @@ target_link_libraries(cvBar ${OpenCV_LIBS})
 
 add_executable(findContours FindContour.cpp)
 target_link_libraries(findContours ${OpenCV_LIBS})
+
+add_executable(floodfill FloodFill.cpp)
+target_link_libraries(floodfill ${OpenCV_LIBS})
