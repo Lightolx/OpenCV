@@ -7,6 +7,8 @@
 #include <opencv2/imgcodecs.hpp>
 #include <opencv/cv.hpp>
 
+// 对cv::Mat各个成员的详细解释
+
 using std::cout;
 using std::endl;
 

@@ -26,3 +26,6 @@ target_link_libraries(dilate_erode ${OpenCV_LIBS})
 
 add_executable(instruction Instruction.cpp)
 target_link_libraries(instruction ${OpenCV_LIBS})
+
+add_executable(round Round.cpp)
+target_link_libraries(round ${OpenCV_LIBS})
