@@ -23,3 +23,6 @@ target_link_libraries(read_vedio ${OpenCV_LIBS})
 
 add_executable(dilate_erode DilateAndErode.cpp)
 target_link_libraries(dilate_erode ${OpenCV_LIBS})
+
+add_executable(instruction Instruction.cpp)
+target_link_libraries(instruction ${OpenCV_LIBS})
