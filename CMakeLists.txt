@@ -14,3 +14,9 @@ target_link_libraries(findContours ${OpenCV_LIBS})
 
 add_executable(floodfill FloodFill.cpp)
 target_link_libraries(floodfill ${OpenCV_LIBS})
+
+add_executable(HoughTransform HoughTransform.cpp)
+target_link_libraries(HoughTransform ${OpenCV_LIBS})
+
+add_executable(read_vedio ReadinVedio.cpp)
+target_link_libraries(read_vedio ${OpenCV_LIBS})
